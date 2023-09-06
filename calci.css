@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(calci.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator {
+    border: 5px solid #130659;
+    width: 300px;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 0px 0px 10px #130659;
+}
+
+#display {
+    width: 97%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #28d0e7;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #1f12ae;
+    color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
